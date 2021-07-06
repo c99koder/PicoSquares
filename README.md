@@ -13,7 +13,7 @@ Special items can help you or hurt you, so choose wisely!
 ## Download
 ![PicoSquares Cart](picosquares.p8.png)
 
-Windows, Mac, and Linux builds are available on the [Github Releases page](https://github.com/c99koder/DCSquares/releases).
+Windows, Mac, and Linux builds are available on the [Github Releases page](https://github.com/c99koder/PicoSquares/releases).
 The game can also be played in your [mobile phone's web browser](https://www.c99.org/projects/picosquares_mobile.html).
 
 ## License
