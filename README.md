@@ -1,7 +1,7 @@
 # PicoSquares
 A PICO-8 conversion of DCSquares
 
-!(PicoSquares Gameplay)[picosquares.gif]
+![PicoSquares Gameplay](picosquares.gif)
 
 ## About
 PicoSquares is a [PICO-8](https://www.lexaloffle.com/pico-8.php) conversion of [DCSquares](https://github.com/c99koder/DCSquares), a homebrew game I released for the SEGA Dreamcast in 2003.  This version of the game is available for Windows, Mac, and Linux.
