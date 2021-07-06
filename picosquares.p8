@@ -1,7 +1,7 @@
 pico-8 cartridge // http://www.pico-8.com
 version 32
 __lua__
--- picosquares v1.0
+-- picosquares v1.01
 -- by sam steele
 -- https://www.c99.org/
 squares = {}
@@ -209,6 +209,8 @@ function _update60()
    if btnp(2,0) then
     if (game.nameentrypos == 0) then
      if game.highscore.name_1 == ord("z") then
+      game.highscore.name_1 = ord(" ")
+     elseif game.highscore.name_1 == ord(" ") then
       game.highscore.name_1 = ord("a")
      else
       game.highscore.name_1 += 1
@@ -216,6 +218,8 @@ function _update60()
     end
     if (game.nameentrypos == 1) then
      if game.highscore.name_2 == ord("z") then
+      game.highscore.name_2 = ord(" ")
+     elseif game.highscore.name_2 == ord(" ") then
       game.highscore.name_2 = ord("a")
      else
       game.highscore.name_2 += 1
@@ -223,6 +227,8 @@ function _update60()
     end
     if (game.nameentrypos == 2) then
      if game.highscore.name_3 == ord("z") then
+      game.highscore.name_3 = ord(" ")
+     elseif game.highscore.name_3 == ord(" ") then
       game.highscore.name_3 = ord("a")
      else
       game.highscore.name_3 += 1
@@ -232,6 +238,8 @@ function _update60()
    if btnp(3,0) then
     if (game.nameentrypos == 0) then
      if game.highscore.name_1 == ord("a") then
+      game.highscore.name_1 = ord(" ")
+     elseif game.highscore.name_1 == ord(" ") then
       game.highscore.name_1 = ord("z")
      else
       game.highscore.name_1 -= 1
@@ -239,6 +247,8 @@ function _update60()
     end
     if (game.nameentrypos == 1) then
      if game.highscore.name_2 == ord("a") then
+      game.highscore.name_2 = ord(" ")
+     elseif game.highscore.name_2 == ord(" ") then
       game.highscore.name_2 = ord("z")
      else
       game.highscore.name_2 -= 1
@@ -246,6 +256,8 @@ function _update60()
     end
     if (game.nameentrypos == 2) then
      if game.highscore.name_3 == ord("a") then
+      game.highscore.name_3 = ord(" ")
+     elseif game.highscore.name_3 == ord(" ") then
       game.highscore.name_3 = ord("z")
      else
       game.highscore.name_3 -= 1
