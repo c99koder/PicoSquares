@@ -7,8 +7,7 @@ A PICO-8 conversion of DCSquares
 PicoSquares is a [PICO-8](https://www.lexaloffle.com/pico-8.php) conversion of [DCSquares](https://github.com/c99koder/DCSquares), a homebrew game I released for the SEGA Dreamcast in 2003.  This version of the game is available for Windows, Mac, and Linux.
 
 ## How To Play
-Collect the green squares and avoid the red ones! The difficulty increases with the more squares you collect.
-Special items can help you or hurt you, so choose wisely!
+Use your gamepad, cursor keys, or mouse to collect the green squares and avoid the red ones! The difficulty increases with the more squares you collect. Special items can help you or hurt you, so choose wisely!
 
 ## Download
 ![PicoSquares Cart](picosquares.p8.png)
